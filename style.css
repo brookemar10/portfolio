@@ -1,4 +1,77 @@
-h1#home-page-title {
-    font-size: 20px; 
-    color: crimson;
+h1 {
+    font-size: 50px; 
+    color: #ba590a;
+    font-weight: 200;
+    font-family:arial;
+    margin:auto;
 }
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#ba590a;
+    font-family:arial;
+    margin:auto;
+}
+
+p {
+    font-size: 20px;
+    font-family: arial;
+    color:#ba590a;
+}
+
+nav {
+    display: flex;
+    background-color: #c2a290;
+    min-height: 100px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+button {
+    font-size: 20px;
+    color: #f1e6df;
+    background-color: #ba590a;
+    border: 0px;
+    font-family: Arial;
+    padding: 8px 25px;
+    margin: auto;
+    }
+
+    #container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        display: flex;
+        max-height: 600px;
+    }
+    .box-1 {
+        width: 50%;
+        justify-content: right;
+        margin-left: 50px;
+    }
+    .box-2 {
+        display: flex; 
+        flex-wrap: wrap;
+        flex-basis: 1000px;
+        width:50%;
+        margin-right: 50px;
+    }
+
+    hgroup {
+        display: flex;
+        flex-wrap: wrap;
+        block-size: 200px;
+        background-color: #f1e6df;
+        padding-left: 150px;
+        padding-right: 150px;
+        }
+
+    #aboutme {
+        justify-content: center;
+        background-color:#f1e6df;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
